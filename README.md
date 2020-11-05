@@ -9,7 +9,7 @@ A tool to show Git like file diffs on command line or in HTML format.
 ### To get output on command line
 
 ```shell script
-python diff_tool.py old_shopping_list.html new_shopping_list.html
+python diff_tool.py old_shopping_list.txt new_shopping_list.txt
 ```
 
 **Output**
@@ -19,7 +19,7 @@ python diff_tool.py old_shopping_list.html new_shopping_list.html
 ### To get output in HTML format
 
 ```shell script
-python diff_tool.py old_shopping_list.html new_shopping_list.html --html diff.html
+python diff_tool.py old_shopping_list.txt new_shopping_list.txt --html diff.html
 ```
 
 **Output**
